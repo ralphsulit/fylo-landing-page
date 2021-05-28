@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+/* *******************
+General
+******************* */
+.cyan {
+  color: hsl(176, 68%, 64%);
+}
+
+.blue {
+  color: hsl(198 60%, 50%);
+}
+
+.red {
+  color: hsl(0, 100%, 63%);
+}
