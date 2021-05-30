@@ -43,6 +43,7 @@ button {
   font-weight: 700;
   color:hsl(0, 0%, 100%);
   background: linear-gradient(to right,rgba(4, 238, 255, 0.945), rgba(14, 217, 231, 0.767));  
+  cursor: pointer;
 }
 
 
@@ -76,6 +77,10 @@ Navigation
   width: 130px;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 
 /* *******************
 Main:
@@ -99,4 +104,47 @@ Banner
   width: 450px;
   margin: 0 auto;
   line-height: 25px;
+}
+
+/* *******************
+Main:
+Cards after banner
+******************* */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr;
+  margin: 200px auto;
+  width: 900px;
+  gap: 100px;
+  text-align: center;
+}
+
+.cards img {
+  width: 63px;
+  height: 58px;
+}
+
+.card-2 img {
+  width: 50px;
+  height: 60px;
+}
+
+.card-3 img{
+  width: 68px;
+  height: 53px;
+}
+
+.card-4 img {
+  width: 70px;
+  height: 50px;
+}
+
+.cards h3 {
+  margin: 15px 0;
+}
+
+.cards h5 {
+  font-weight: 200;
+  line-height: 20px;
 }
