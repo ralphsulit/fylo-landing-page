@@ -107,7 +107,7 @@ Banner
 .upper-banner-text p {
   font-size: 1em;
   font-weight: 200;
-  width: 450px;
+  width: 438px;
   margin: 0 auto;
   line-height: 25px;
 }
@@ -129,6 +129,16 @@ Cards after banner
 .cards img {
   width: 63px;
   height: 58px;
+}
+
+.cards h5 {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.card-2 h5,
+.card-3 h5 {
+  width: 312px;
 }
 
 .card-2 img {
@@ -163,9 +173,14 @@ Lower Banner
   margin: 100px auto;
 }
 
+.lower-banner-text {
+  width: 500px;
+}
+
 .lower-banner h1 {
   font-size: 2em;
   line-height: 40px;
+  width: 300px;
 }
 
 .lower-banner p {
@@ -182,4 +197,5 @@ Lower Banner
 .lower-banner a:hover {
   border-bottom: 1px solid #fff;
   padding-bottom: 5px;
+  color:hsl(176, 68%, 64%);
 }
