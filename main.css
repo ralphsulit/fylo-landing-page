@@ -47,6 +47,12 @@ button {
 }
 
 
+h5 {
+  font-weight: 200;
+  line-height: 20px;
+}
+
+
 /* *******************
 Colors
 ******************* */
@@ -86,19 +92,19 @@ Navigation
 Main:
 Banner
 ******************* */
-.banner {
+.upper-banner {
   text-align: center;
   margin: 60px 0;
 
 }
 
-.banner-text h1 {
+.upper-banner-text h1 {
   font-size: 2em;  
   width: 600px;
   margin: 40px auto;
 }
 
-.banner-text p {
+.upper-banner-text p {
   font-size: 1em;
   font-weight: 200;
   width: 450px;
@@ -144,7 +150,36 @@ Cards after banner
   margin: 15px 0;
 }
 
-.cards h5 {
-  font-weight: 200;
-  line-height: 20px;
+/* *******************
+Main:
+Lower Banner
+******************* */
+.lower-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  text-align: left;
+  margin: 100px auto;
+}
+
+.lower-banner h1 {
+  font-size: 2em;
+  line-height: 40px;
+}
+
+.lower-banner p {
+  margin: 20px 0;
+}
+
+.lower-banner a {
+  display: flex;
+  text-decoration: none;
+  color:hsl(0, 0%, 100%);
+  width: 150px;
+}
+
+.lower-banner a:hover {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
 }
