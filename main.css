@@ -199,3 +199,54 @@ Lower Banner
   padding-bottom: 5px;
   color:hsl(176, 68%, 64%);
 }
+
+
+/* *******************
+Main:
+Testimonials
+******************* */
+.testi {
+  display: flex;  
+  justify-content: center;  
+  background: url(images/bg-quotes.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: left 125px top 60px;
+  width: 1440px;
+}
+
+.testi-card {
+  border: none;
+  background: hsl(219, 30%, 18%);
+  margin: 100px 30px;
+  padding: 40px 30px 30px 30px;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.testi-card-profile {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.testi-card h5 {
+  width: 280px;
+}
+
+.testi img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-size: 0.8em;
+  font-weight: 800;
+  line-height: 15px;
+}
+
+.profile-name h6 {
+  font-weight: 200;
+}
