@@ -301,8 +301,7 @@ Footer
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 165px;
-  
+  gap: 120px;
 }
 
 /* *******************
@@ -354,10 +353,11 @@ Footer:
 Links
 ******************* */
 .footer-links {
+  width: 300px;
   display: flex;
   margin-top: 100px;
-  gap: 60px;
   line-height: 30px;
+  gap: 80px;
 }
 
 .footer-links ul {
@@ -367,6 +367,10 @@ Links
 
 .footer-links ul li {
   cursor: pointer;
+}
+
+.footer-links ul li:hover {
+  font-weight: 800;
 }
 
 /* *******************
@@ -388,4 +392,9 @@ Socials
 
 .footer-socials .fb {
   padding: 10px 13px;
+}
+
+.footer-socials i:hover {
+  border-color:hsl(176, 68%, 64%);
+  color:hsl(176, 68%, 64%);
 }
