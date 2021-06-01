@@ -513,9 +513,15 @@ Mobile 300px
     }
 
     .testi-card {
+      display: flex;
+      flex-direction: column;
       width: 300px;
-      margin: 20px 0;
+      margin: 20px auto;
       padding: 40px 30px 30px 30px;
+    }
+
+    .testi-card h5 {
+      width: 250px;
     }
 
     /* *******************
