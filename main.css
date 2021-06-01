@@ -397,3 +397,200 @@ Socials
   border-color:hsl(176, 68%, 64%);
   color:hsl(176, 68%, 64%);
 }
+
+
+/* *******************
+Media Query:
+Mobile 300px
+******************* */
+  @media (max-width: 360px) {
+    .container {
+      width: 360px;
+    }
+
+    /* *******************
+    Header: 
+    Navigation
+    ******************* */
+    #header {
+      width: 300px;
+    }
+
+    .logo {
+      width: 70px;
+    }
+
+    .navbar {
+      font-size: 0.8em;
+    }
+
+    ul li a {
+      padding: 0 8px;
+    }
+
+    /* *******************
+    Main: 
+    Upper Banner
+    ******************* */
+    .upper-banner {
+      margin: 100px auto;
+    }
+
+    .upper-banner img {
+      width: 300px;
+    }
+
+    .upper-banner-text h1 {
+      font-size: 1.5em;
+      width: 300px;
+    }
+
+    .upper-banner-text p {
+      width: 287px;
+    }
+
+    /* *******************
+    Main:
+    Cards after banner
+    ******************* */
+    .cards {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    /* *******************
+    Main:
+    Lower Banner
+    ******************* */
+    .lower-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 100px;
+      text-align: left;
+      margin: 100px auto;
+    }
+
+    .lower-banner-text {
+      width: 300px;
+    }
+    
+    .lower-banner h1 {
+      font-size: 1.3em;
+      line-height: 40px;
+      width: 300px;
+    }
+    
+    .lower-banner p {
+      margin: 20px 0;
+    }
+
+    .lower-banner-img {
+      width: 300px;
+    }
+
+    .lower-banner a:hover {
+      border-bottom: 1px solid #fff;
+      padding-bottom: 5px;
+      color:hsl(176, 68%, 64%);
+    }
+
+    /* *******************
+    Main:
+    Testimonials
+    ******************* */
+    .testi {
+      display: flex;  
+      flex-direction: column;
+      background: url(images/bg-quotes.png);
+      background-size: 40px;
+      background-repeat: no-repeat;
+      background-position: left 10px top -5px;
+      width: 300px;
+      margin: 200px auto;
+    }
+
+    .testi-card {
+      width: 300px;
+      margin: 20px 0;
+      padding: 40px 30px 30px 30px;
+    }
+
+    /* *******************
+    Form Before Footer
+    ******************* */
+    .form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px 50px;
+      border: none;
+      border-radius: 8px;
+      text-align: center;
+      width: 300px;
+      margin-bottom: -80px;
+    }
+
+    input[type=email] {
+      margin: 0 auto;
+      padding: 10px 40px;
+      width: 220px;
+    }
+
+    .form button {
+      width: 220px;
+      padding: 10px 20px;
+    }
+    
+    .form h1 {
+      width: 220px;
+      font-size: 1.2em;
+    }
+
+    .form p {
+      width: 244px;
+      font-size: 0.9em;
+    }
+
+
+    /* *******************
+    Footer
+    ******************* */
+    #footer {
+      background: hsl(216, 53%, 9%);
+      padding: 150px 100px 20px 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-logo {
+      width: 130px;
+      margin-left: 35px;
+    }
+
+    .footer-loc {
+      display: flex;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+
+    .footer-contacts {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      width: 300px;
+    }
+
+    .footer-links {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      line-height: 30px;
+      gap: 30px;
+    }
+
+}
